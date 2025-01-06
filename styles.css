@@ -71,6 +71,7 @@ body {
   header {
     border-bottom: 10px solid #d98555;
   }
+
   /* navbar styling */
   nav ul {
     padding: 0;
@@ -84,10 +85,12 @@ body {
     margin: 0 1rem 1rem 1rem;
     font-size: 1.3rem;
   }
+  
   /* max width on the image in pixels */
   nav .logo img {
     max-width: 150px;
   }
+
   /* flex basis on the image container, li */
   nav .logo {
     flex-basis: 100%;
@@ -101,11 +104,12 @@ body {
   nav a:hover {
     color: #d98555;
   }
-  /* establishes a white background */
+  /* white background */
   .main-bkgd, main {
     background: #ffffff url(../Module-10-Homework-Submission-1.6.2024/img/gulp-bottom-beans.jpg) repeat-x bottom;
     padding-bottom: 300px;
   }
+
   /* sits inside of the white background, centered */
   .main {
     max-width: 1200px;
