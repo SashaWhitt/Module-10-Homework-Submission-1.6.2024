@@ -1,0 +1,247 @@
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+  }
+  
+  .Products > div {
+    flex: 1; 
+    min-width: 300px; 
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .Products h1 {
+    width: 100%; 
+    text-align: center; 
+    
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+  body {
+    background-color: #082B59;
+      margin: 0;
+      padding: 0;
+      font-family: 'Lato', sans-serif;
+      line-height: 2;
+
+  }
+
+  
+  main {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      font-family: 'Lato', sans-serif;
+      line-height: 1.5;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+      margin-bottom: 0;
+      text-align: center;
+
+    }
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    
+    
+
+    header {
+      border-bottom: 10px solid #d98555;
+    }
+
+    /* navbar styling */
+    nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 1rem 1rem 1rem;
+      font-size: 1.3rem;
+    }
+    /* max width on the image in pixels */
+    nav .logo img {
+      max-width: 150px;
+    }
+    /* flex basis on the image container, li */
+    nav .logo {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      color: #d98555;
+
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+
+ .Columbian-Blended-Espresso-Beans {
+    border-color: #f2f2f2;
+    padding: 20px;
+ }
+
+ .Triple-Blended-Coffee-Beans {
+    border-color: #f2f2f2;
+    padding: 20px;
+ }
+    
+.Lightly-Roasted-Coffee-Beans {
+    border-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  border-top: 10px solid #d98555;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer a {
+  color: #f2f2f2;
+  font-size: 2rem;
+  display: block;
+  margin: 0 1rem 3rem 1rem;
+}
+
+
+/*
+footer {
+    color: #f2f2f2;
+    text-align: center;
+    border-top: 10px solid #d98555;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  footer a {
+    color: #f2f2f2;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  } */
+  
+      main picture {
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px; 
+    }
+
+  /* MEDIA QUERIES */
+  
+    /* Medium devices (tablets, 600px and up) */
+  @media (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  
+    .item {
+        flex: 1 1 45%;
+    }
+  }
+  
+  /* Large devices (desktops, 900px and up) */
+  @media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .item {
+        flex: 1 1 30%;
+    }
+  }
+  
+  /* Responsive background images */
+  .coffee-beans {
+    background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-coffee-beans.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+  }
+  
+.gulp-drinking-coffee {
+    {
+        background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-drinking-coffee.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 100%;
+}
+
+.espresso {
+    {
+        background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-espresso.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 100%;
+}
+
+  @media (min-width: 600px) {
+    .coffee-beans {
+        background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-coffee-beans.jpg');
+    }
+    .gulp-drinking-coffee {
+        {
+            background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-drinking-coffee.jpg');
+    }
+    
+    .espresso {
+        {
+            background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-espresso.jpg');
+
+  }
+  
+  @media (min-width: 900px) {
+    .coffee-beans {
+        background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-coffee-beans.jpg');
+    }
+    .gulp-drinking-coffee {
+        {
+            background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-drinking-coffee.jpg');
+    }
+    
+    .espresso {
+        {
+            background-image: url('../Module-10-Homework-Submission-1.6.2024/img/gulp-espresso.jpg');
+  }
+
+
