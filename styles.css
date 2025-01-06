@@ -86,31 +86,33 @@ body {
     font-size: 1.3rem;
   }
   
-  /* max width on the image in pixels */
+ 
   nav .logo img {
     max-width: 150px;
   }
 
-  /* flex basis on the image container, li */
+
   nav .logo {
     flex-basis: 100%;
     text-align: center;
   }
+
   nav a {
     color: white;
     text-decoration: none;
     display: block;
   }
+
   nav a:hover {
     color: #d98555;
   }
+
   /* white background */
   .main-bkgd, main {
     background: #ffffff url(../Module-10-Homework-Submission-1.6.2024/img/gulp-bottom-beans.jpg) repeat-x bottom;
     padding-bottom: 300px;
   }
 
-  /* sits inside of the white background, centered */
   .main {
     max-width: 1200px;
     margin: 0 auto;
@@ -169,6 +171,10 @@ body {
     display: block;
     margin: 0 1rem 3rem 1rem;
   }
+
+
+
+
 
 /* MEDIA QUERIES */
 
