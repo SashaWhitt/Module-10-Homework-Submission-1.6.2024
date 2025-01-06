@@ -174,7 +174,9 @@ body {
 
 
 
-
+.container {
+  display: block;
+}
 
 /* MEDIA QUERIES */
 
